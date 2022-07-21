@@ -1,0 +1,143 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    width:100%;
+}
+
+    
+
+h1{
+    font-size: 40px;
+    color: white;
+}
+p{
+    color: white;
+}
+
+
+.fexible-container{
+    display: flex;
+    background-color:black;
+    width: 1000px;
+    height:584px;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 140px;
+    }
+
+.half-width{
+    width: 30%;
+    padding-left: 5%;
+    
+    padding-right: 100px;
+}
+.button{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.half-width img{
+    width:100%;
+   
+}
+.img-size{
+    width: 581px;
+    height: 613px;
+}
+
+.update-button{
+    
+    border: 2px solid black;
+    width:200px;
+    height:200px;
+    margin-left:170px;
+    margin-right: 140px;
+    margin-top:12px ;
+    background-color: black;
+}
+.update-button a{
+    text-decoration: none;
+    color:black;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border:2px solid white;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+}
+.update-button .red{
+    background-color: red;
+    border-color: red;
+    color: white;
+    
+
+}
+.blog{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 170px;
+    
+
+    
+}
+.players-play img{
+    width:200px;
+    height:200px;
+    margin-top: 10px;
+    
+    
+
+}
+.trans-button{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.black{
+    color: black;
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+.fa-clock{
+    margin-left: 20px;
+}
+.fa-comment-dots{
+    margin-left: 40px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 740px;
+    grid-column-gap:10px;
+}
+.footer-h1{
+    color:white
+}
+.footer-part{
+    padding:50px 50px;
+    background-color: black;
+    margin-top: 170px;
+    text-align: center;
+}
+hr{
+    color: gray;
+    width: 70%;
+
+}
+.service{
+    
+    color: white;
+    display: inline-flex;
+    gap:40px;
+    
+    
+}
+.social{
+    color: white;
+    row-gap: 100%;
+}
