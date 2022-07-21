@@ -1,7 +1,9 @@
 /*---------------Font------------------*/
 body{
     font-family: 'Poppins', sans-serif;
-    width:100%;
+   
+    
+    
 }
 /*------------------------Top body style------------------------------*/
 h1{
@@ -23,7 +25,7 @@ p{
     }
 
 .half-width{
-    width: 30%;
+    width: 100%;
     padding-left: 5%;
     
     padding-right: 100px;
@@ -38,12 +40,16 @@ p{
 }
 
 .half-width img{
-    width:100%;
+    width:90%;
    
 }
 .img-size{
     width: 581px;
     height: 613px;
+}
+.field:hover .img-size{
+    transform:translateX(200px);
+    transition:top right;
 }
 /*-------------------------------------second update button-----------------------*/
 
@@ -81,24 +87,29 @@ p{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 170px;
+    
 }
 .vs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 1px;
     gap:20px;
-    margin-right: 1px;
+    margin-right: 100px;
     
 }
-.players-play img, .country-vs img{
-    width:200px;
+.players-play img{
+    width:250px;
     height:200px;
     margin-top: 10px;
 }
+
 .country-vs img {
-    width: 250px;
-    height: 200px;
+    width: 90px;
+    height: 90px;
     
+}
+.country-vs{
+    display: flex;
 }
 
 .trans-button{
@@ -129,7 +140,7 @@ p{
     color:white
 }
 .footer-part{
-    padding:50px 50px;
+    padding:100px 100px;
     background-color: black;
     margin-top: 170px;
     text-align: center;
@@ -156,4 +167,87 @@ hr{
     color: black;
     text-align: center;
     margin-top: 2px;
+}
+@media only screen and (max-width:680px) {
+    .fexible-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: max-content;
+        
+        
+    }
+    .blog{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 350px;
+        margin-top: 5px;
+        
+    }
+    .update-button{
+        background-color: white;
+        border: none;
+        margin-top: 5px;
+        
+    }
+    .none{
+        display: none;
+    }
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 145px;
+        margin-top: 20px;
+
+    }
+    .players-play img {
+         width: 450px;
+         height: 200px;
+        margin-top: 10px;
+        margin-right: 100px;
+    }
+    .service {
+        display: block;
+        text-align: center;
+    }
+    .footer-part{
+        
+        width: 1075px;
+        height: 412px;
+        margin-top:20px;
+       
+    }
+}
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .blog {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            margin-left: 350px;
+            margin-top: 5px;
+    
+        }
+    .players {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin-left: 145px;
+            margin-top: 10px;
+    
+        }
+    .none{
+        display: none;
+    }
+    .update-button{
+        background-color: white;
+        border:none;
+        margin-top: 5px;
+        display: flex;
+        gap: 100px;
+}
+.footer-part{
+    margin-top:0px;
+ 
+    
+    width: 834px;
+    height: 345px;
+    left: 0px;
+}
 }
