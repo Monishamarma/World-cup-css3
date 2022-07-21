@@ -1,10 +1,9 @@
+/*---------------Font------------------*/
 body{
     font-family: 'Poppins', sans-serif;
     width:100%;
 }
-
-    
-
+/*------------------------Top body style------------------------------*/
 h1{
     font-size: 40px;
     color: white;
@@ -12,8 +11,6 @@ h1{
 p{
     color: white;
 }
-
-
 .fexible-container{
     display: flex;
     background-color:black;
@@ -48,6 +45,7 @@ p{
     width: 581px;
     height: 613px;
 }
+/*-------------------------------------second update button-----------------------*/
 
 .update-button{
     
@@ -86,13 +84,11 @@ p{
 
     
 }
+/*-----------------------------------players-------------------------------------*/
 .players-play img{
     width:200px;
     height:200px;
     margin-top: 10px;
-    
-    
-
 }
 .trans-button{
     margin-left: 20px;
@@ -114,7 +110,9 @@ p{
     grid-template-columns: repeat(3, 1fr);
     margin-right: 740px;
     grid-column-gap:10px;
+
 }
+/*----------------------------------Footer body------------------------------*/
 .footer-h1{
     color:white
 }
